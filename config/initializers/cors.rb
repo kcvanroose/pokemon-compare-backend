@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://www.pokemon-compare.com'
+    origins 'https://www.pokemon-compare.com'
 
     resource '*',
       headers: :any,
